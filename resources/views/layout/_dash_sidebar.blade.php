@@ -35,6 +35,12 @@
                     <a href="/about"> <i class="menu-icon ti-bookmark"></i>About</a>
                 </li>
 
+                <li class="menu-title">Pengungjung</li>
+                <!-- /.menu-title -->
+                <li class="{{Request::segment(1) == 'statistik' ? 'active' : ''}}">
+                    <a href="/statistik"> <i class="menu-icon ti-bookmark"></i>Statistik</a>
+                </li>
+
 
             </ul>
         </div>

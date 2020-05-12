@@ -23,6 +23,7 @@ Route::group(['middleware' => 'admin'], function () {
     Route::resource('/quote', 'QuoteController');
     Route::resource('/artikel', 'ArtikelController');
     Route::resource('/about', 'AboutController');
+    Route::get('/statistik', 'StatistikController@index');
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
